@@ -30,4 +30,4 @@ A list of the results to be obtained with a brief description of each is shown b
 
 ## License
 
-TBD
+MIT
