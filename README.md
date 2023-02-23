@@ -1,6 +1,6 @@
 # QFAttacks
 
-This repository contains the code necessary to perform the simulations of the paper ***On the Security of Quotient Filters: Attacks and Potential Countermeasures*** which is currently under review in IEEE Transactions on Dependable and Secure Computing.
+This repository contains the code necessary to perform the simulations of the paper ***On the Security of Quotient Filters: Attacks and Potential Countermeasures*** which is currently under review in IEEE Transactions on Computers.
 
 These simulations are attacks on the security of the Quotient Filter whose implementation, used for both white box and black box, can be found in the following repository: [FilterLibrary](https://github.com/nivdayan/FilterLibrary).
 
