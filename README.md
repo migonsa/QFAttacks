@@ -21,12 +21,16 @@ java QFAttacks
 ```
 
 ## Results
-The results obtained from the execution of *QFAttacks* are the CSV format files used to draw the graphs of the paper. These are available in the current repository, although it should be noted that, since these are simulations, the numerical results may vary slightly from one run to another.  
+The results obtained from the execution of *QFAttacks* are the CSV format files used to draw the graphs of the paper. These are available in the current repository, although it should be noted that, since these are simulations, the numerical results may vary slightly from one run to another. Moreover, there is an implemented filter (referred as just *filter*) without protection mechanisms and another with them (referred as *secured filter*).
 A list of the results to be obtained with a brief description of each is shown below. For more information refer to the paper.
 - **attack_insertion_failure_wb.csv**   &#8594;   It contains the numerical results of attacks intended to cause insertion failures in the filter when used as a white box.
 - **attack_insertion_failure_bb.csv**   &#8594;   It contains the numerical results of attacks intended to cause insertion failures in the filter when used as a black box.
 - **attack_speed_degradation_wb.csv**   &#8594;   It contains the numerical results of attacks intended to cause a degradation in the speed of filter queries when used as a white box.
 - **attack_speed_degradation_bb.csv**   &#8594;   It contains the numerical results of attacks intended to cause a degradation in the speed of filter queries when used as a black box.
+- **attack_insertion_failure_wb_sec.csv**   &#8594;   It contains the numerical results of attacks intended to cause insertion failures in the secured filter when used as a white box.
+- **attack_insertion_failure_bb_sec.csv**   &#8594;   It contains the numerical results of attacks intended to cause insertion failures in the secured filter when used as a black box.
+- **attack_speed_degradation_wb_sec.csv**   &#8594;   It contains the numerical results of attacks intended to cause a degradation in the speed of the secured filter queries when used as a white box.
+- **attack_speed_degradation_bb_sec.csv**   &#8594;   It contains the numerical results of attacks intended to cause a degradation in the speed of the secured filter queries when used as a black box.
 
 ## License
 
