@@ -869,7 +869,7 @@ public class QFAttacks
         boolean sameInsertion = true;
         int trials = 1000;
         int cores = 20;
-
+	
 	attack_insertion_failure_wb(mbits, fbits, sameInsertion);
         attack_insertion_failure_bb_multithread(mbits, fbits, trials, sameInsertion, cores);
         attack_insertion_failure_bb_sec_multithread(mbits, fbits, trials, sameInsertion, cores);
